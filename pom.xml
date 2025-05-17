@@ -45,7 +45,7 @@
         <spring-boot.version>3.2.12</spring-boot.version>
         <spring-data.version>3.2.12</spring-data.version>
         <spring-data-redis.version>3.2.12</spring-data-redis.version>
-        <spring.version>6.1.15</spring.version>
+        <spring.version>6.1.20</spring.version>
         <spring-redis.version>6.2.11</spring-redis.version>
         <spring-security.version>6.2.8</spring-security.version>
         <jedis.version>5.1.5</jedis.version>
@@ -796,7 +796,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
