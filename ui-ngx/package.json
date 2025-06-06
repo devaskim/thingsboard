@@ -38,7 +38,7 @@
     "@svgdotjs/svg.filter.js": "^3.0.8",
     "@svgdotjs/svg.js": "^3.2.4",
     "@svgdotjs/svg.panzoom.js": "^2.1.2",
-    "@tinymce/tinymce-angular": "^8.0.1",
+    "@tinymce/tinymce-angular": "^9.0.0",
     "ace-builds": "1.36.5",
     "ace-diff": "^3.0.3",
     "angular-gridster2": "~18.0.1",
