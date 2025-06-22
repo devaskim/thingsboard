@@ -42,10 +42,10 @@
         <jakarta.xml.bind-api.version>4.0.2</jakarta.xml.bind-api.version>
         <javax.xml.bind-api.version>2.4.0-b180830.0359</javax.xml.bind-api.version>
         <jaxb-runtime.version>4.0.5</jaxb-runtime.version>
-        <spring-boot.version>3.2.12</spring-boot.version>
+        <spring-boot.version>3.3.7</spring-boot.version>
         <spring-data.version>3.2.12</spring-data.version>
         <spring-data-redis.version>3.2.12</spring-data-redis.version>
-        <spring.version>6.1.15</spring.version>
+        <spring.version>6.1.21</spring.version>
         <spring-redis.version>6.2.11</spring-redis.version>
         <spring-security.version>6.2.8</spring-security.version>
         <jedis.version>5.1.5</jedis.version>
@@ -111,7 +111,7 @@
         <!-- IMPORTANT: If you change the version of the kafka client, make sure to synchronize our overwritten implementation of the
         org.apache.kafka.common.network.NetworkReceive class in the application module. It addresses the issue https://issues.apache.org/jira/browse/KAFKA-4090.
         Here is the source to track https://github.com/apache/kafka/tree/trunk/clients/src/main/java/org/apache/kafka/common/network -->
-        <kafka.version>3.7.1</kafka.version>
+        <kafka.version>3.9.1</kafka.version>
         <bucket4j.version>8.10.1</bucket4j.version>
         <antlr.version>3.5.3</antlr.version>
         <snakeyaml.version>2.2</snakeyaml.version>
@@ -796,7 +796,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
