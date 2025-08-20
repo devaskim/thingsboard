@@ -45,7 +45,7 @@
         <spring-boot.version>3.2.12</spring-boot.version>
         <spring-data.version>3.2.12</spring-data.version>
         <spring-data-redis.version>3.2.12</spring-data-redis.version>
-        <spring.version>6.1.15</spring.version>
+        <spring.version>6.2.10</spring.version>
         <spring-redis.version>6.2.11</spring-redis.version>
         <spring-security.version>6.2.8</spring-security.version>
         <jedis.version>5.1.5</jedis.version>
@@ -90,7 +90,7 @@
         <paho.mqttv5.client.version>1.2.5</paho.mqttv5.client.version>
         <netty.version>4.1.115.Final</netty.version>
         <netty-tcnative.version>2.0.65.Final</netty-tcnative.version>
-        <reactor-netty.version>1.1.18</reactor-netty.version>
+        <reactor-netty.version>1.2.8</reactor-netty.version>
         <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
         <rabbitmq.version>5.21.0</rabbitmq.version>
         <surefire.version>3.2.5</surefire.version>
@@ -99,7 +99,7 @@
         <swagger-annotations.version>2.2.21</swagger-annotations.version>
         <spatial4j.version>0.8</spatial4j.version>
         <jts.version>1.19.0</jts.version>
-        <bouncycastle.version>1.78.1</bouncycastle.version>
+        <bouncycastle.version>1.79</bouncycastle.version>
         <winsw.version>2.0.1</winsw.version>
         <postgresql.driver.version>42.7.3</postgresql.driver.version>
         <sonar.exclusions>org/thingsboard/server/gen/**/*,
@@ -796,7 +796,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
