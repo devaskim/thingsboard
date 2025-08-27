@@ -42,7 +42,7 @@
         <jakarta.xml.bind-api.version>4.0.2</jakarta.xml.bind-api.version>
         <javax.xml.bind-api.version>2.4.0-b180830.0359</javax.xml.bind-api.version>
         <jaxb-runtime.version>4.0.5</jaxb-runtime.version>
-        <spring-boot.version>3.2.12</spring-boot.version>
+        <spring-boot.version>3.4.9</spring-boot.version>
         <spring-data.version>3.2.12</spring-data.version>
         <spring-data-redis.version>3.2.12</spring-data-redis.version>
         <spring.version>6.1.15</spring.version>
@@ -79,7 +79,7 @@
         <leshan.version>2.0.0-M15</leshan.version>
         <gson.version>2.10.1</gson.version>
         <freemarker.version>2.3.32</freemarker.version>
-        <mail.version>2.0.1</mail.version>
+        <mail.version>2.0.2</mail.version>
         <curator.version>5.6.0</curator.version>
         <zookeeper.version>3.9.2</zookeeper.version>
         <protobuf.version>3.25.5</protobuf.version> <!-- A Major v4 does not support by the pubsub yet-->
@@ -796,7 +796,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
