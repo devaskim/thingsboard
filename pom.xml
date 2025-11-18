@@ -116,7 +116,7 @@
         <antlr.version>3.5.3</antlr.version>
         <snakeyaml.version>2.2</snakeyaml.version>
         <aws.sdk.version>1.12.701</aws.sdk.version>
-        <pubsub.client.version>1.128.1</pubsub.client.version>
+        <pubsub.client.version>1.143.1</pubsub.client.version>
         <google.common.protos.version>2.37.1</google.common.protos.version>
         <passay.version>1.6.4</passay.version>
         <ua-parser.version>1.6.1</ua-parser.version>
@@ -796,7 +796,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
