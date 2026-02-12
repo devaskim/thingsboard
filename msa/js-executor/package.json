@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "config": "^3.3.12",
-    "express": "^4.21.1",
+    "express": "^4.22.0",
     "js-yaml": "^4.1.0",
     "kafkajs": "^2.2.4",
     "long": "^5.2.3",
